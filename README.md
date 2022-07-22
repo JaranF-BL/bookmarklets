@@ -23,8 +23,8 @@ So, tickets come into TopDesk asking to have the NGINX cache cleared for a parti
  - Give user ability tweak the boilerplate Curl command without having to edit JavaScript code of bookmarklet
 
 **Programming Task To-Dos**
-1. Bootstrap [MVP] Jasmine tests / Karma test runner (via NPM)
-2. Point test runner at tests
+1. ~~Bootstrap [MVP] Jasmine tests / Karma test runner (via NPM)~~
+2. ~~Point test runner at tests~~
 4. ----WRITE THE ACTUAL CODE TO DO JOB BY COMPLETEING BELOW----
 3. [MVP] Pick up currently selected text
 2. [MVP] Santize URL
