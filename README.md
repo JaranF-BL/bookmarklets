@@ -34,3 +34,5 @@ So, tickets come into TopDesk asking to have the NGINX cache cleared for a parti
 6. Place into clipboard what was done in 4. so it is ready to be pasted
 7. If everythin is OK, inform you how to run the command (i.e. WIN + R and then Ctrl + V)
 8. If unsuccessful inform user what went wrong
+9. ----BUILD TASKS BELOW TO MAKE DEPLOY - READY----
+10. Code uglified to one line and uglified result prepended with "javascript:"
