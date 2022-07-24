@@ -40,14 +40,17 @@ describe('Date Mock', function() {
   });
   it('should detect a selected URL and process it so it is not just the same string returned back', function () {
     const elContainingSelected = frame.document.getElementById("selectedTextFixture");
-	expect(elContainingSelected.innerHTML="https://www.x.com/").toEqual("https://www.x.com/");
+	const url = "http://www.x.com/";
+	expect(elContainingSelected.innerHTML=url).toEqual(url);
 	sel.removeAllRanges();
 	const range = frame.document.createRange();
     range.selectNodeContents(elContainingSelected);
 	sel.addRange(range);	
-	expect("https://www.x.com/").not.toEqual(ccg(frame));
+	expect(url).not.toEqual(ccg(frame));
   });
-
+  it('should roll a picked up URL into a curl command', function () {
+	expect("curl -I -X DELETE \"https://www.bl.uk/events/Medusas%20Story\"").toEqual(ccg(frame));
+  });
   afterEach(function() {
 	sel.removeAllRanges();
 	document.body.removeChild(IFrWrap);
