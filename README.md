@@ -26,7 +26,7 @@ So, tickets come into TopDesk asking to have the NGINX cache cleared for a parti
 1. ~~Bootstrap [MVP] Jasmine tests / Karma test runner (via NPM)~~
 2. ~~Point test runner at tests~~
 4. ----WRITE THE ACTUAL CODE TO DO JOB BY COMPLETEING BELOW----
-3. [MVP] Pick up currently selected text
+3. ~~[MVP] Pick up currently selected text~~
 2. [MVP] Santize URL
 3. Determine if multiple lines worth of URLs have been picked up
 4. [MVP] Insert what was picked up from 2. into Curl command
