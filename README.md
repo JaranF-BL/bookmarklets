@@ -27,12 +27,12 @@ So, tickets come into TopDesk asking to have the NGINX cache cleared for a parti
 2. ~~Point test runner at tests~~
 4. ----WRITE THE ACTUAL CODE TO DO JOB BY COMPLETEING BELOW----
 3. ~~[MVP] Pick up currently selected text~~
-2. [MVP] Santize URL
+2. ~~[MVP] Santize URL~~
 3. Determine if multiple lines worth of URLs have been picked up
-4. [MVP] Insert what was picked up from 2. into Curl command
-5. Featue detect what sort of programatic clipboard access, this browseer suppoorts
-6. Place into clipboard what was done in 4. so it is ready to be pasted
-7. If everythin is OK, inform you how to run the command (i.e. WIN + R and then Ctrl + V)
-8. If unsuccessful inform user what went wrong
+4. ~~[MVP] Insert what was picked up from 2. into Curl command~~
+5. [TODO] Featue detect what sort of programatic clipboard access, this browseer suppoorts
+6. [TODO] Place into clipboard what was done in 4. so it is ready to be pasted
+7. [TODO] If everythin is OK, inform you how to run the command (i.e. WIN + R and then Ctrl + V)
+8. [TODO] If unsuccessful inform user what went wrong
 9. ----BUILD TASKS BELOW TO MAKE DEPLOY - READY----
 10. Code uglified to one line and uglified result prepended with "javascript:"
