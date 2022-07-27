@@ -3,7 +3,7 @@
 /* Use Jasmine assert framework to supply BDD-style vocabularly */
 
 
-describe('Date Mock', function() {
+describe('Curl Command Generator', function() {
   let IFrWrap = null;
   let sel = null;
   let frame = null;
