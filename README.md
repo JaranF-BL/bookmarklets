@@ -36,3 +36,11 @@ So, tickets come into TopDesk asking to have the NGINX cache cleared for a parti
 8. [TODO] If unsuccessful inform user what went wrong
 9. ----BUILD TASKS BELOW TO MAKE DEPLOY - READY----
 10. Code uglified to one line and uglified result prepended with "javascript:"
+
+## Bookmarklet 2: URL Corollarizer Between Internal Environments
+Say your browser is on the BL live site and you want to see what the corollary of that page looks like in a NLE or staging environment... how do you normally do that? Almost always it means you manually paste in the domain name part of url for the target environment, say for example https://staging-nle-02.bl.uk, into the start of the URL as shown in the browser's address bar. Instead of faffing with such a copy and paste, this bookmarklet will present a modal text entry alert box, listing loads of different BL environments, you choose the number against the one you want to target and press enter. Your browser will take you to the corollary of the page you are on, dependent on what environment you chose as your target choice.
+Yes, this bookmarklet preserves the HTTPS versus HTTP status of the page you are on and any port specification so you don't loose them when being taken to the corollary page.
+**Programming Task To-Dos**
+1. ~~Prune the list of target environment URLs as I am sure some of them are not used~~
+2. ~~Update unit tests when 1. is done~~
+
