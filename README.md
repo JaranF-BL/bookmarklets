@@ -43,4 +43,5 @@ Yes, this bookmarklet preserves the HTTPS versus HTTP status of the page you are
 **Programming Task To-Dos**
 1. ~~Prune the list of target environment URLs as I am sure some of them are not used~~
 2. ~~Update unit tests when 1. is done~~
+3. ~~Gracefully handle user clicking 'Cancel' instead of selecting an option~~
 
